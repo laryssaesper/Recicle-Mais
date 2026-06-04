@@ -10,11 +10,30 @@
 }
 
 header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #00A462;
-    height:4em;
+    padding: 1em;
 }
 
-.CardGrid{
-    display: grid;
-    padding: 3em;
+.CardGrid {
+    display: flex;
+    gap: 2em;
+    text-align: center;
+    background-color: #003712;
+    padding: 10px;
 }
+
+.Card,
+.front,
+.back {
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    align-content: center;
+    width: 12em;
+    height: 12em;
+    padding: 2em;
+    border-radius: 5%;
+    background-color: red;
+}
+
