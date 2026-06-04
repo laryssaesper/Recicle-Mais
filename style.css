@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #E5FFF4;
+    color: #003712;
+    font-family: "Amaranth", sans-serif;
+}
+
+header {
+    background-color: #00A462;
+    height:4em;
+}
+
+.CardGrid{
+    display: grid;
+    padding: 3em;
+}

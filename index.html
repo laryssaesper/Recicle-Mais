@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Recicle Mais</title>
+</head>
+
+<body>
+    <header>
+        icon
+    </header>
+
+    <h2>Hoje é dia <input type="date" id="DataHoje"></h2>
+
+    <label>
+        <input type="checkbox"><span>Terça</span>
+        <input type="checkbox"><span>Quinta</span>
+        <input type="checkbox"><span>Sábado</span>
+    </label>
+
+    <span>Dia de coleta</span>
+
+    <div>
+        <div class="Info">
+            <details>
+                <summary>Importância da coleta</summary>
+                <div>
+                    A coleta seletiva traz muitos benefícios para o meio ambiente e para a sociedade.
+
+                    Ao separar os resíduos recicláveis, evitamos a extração excessiva de recursos naturais, reduzimos o
+                    volume de lixo nos aterros e economizamos energia na produção de novos materiais.
+
+                    * Fonte: EuReciclo
+                </div>
+            </details>
+        </div>
+
+        <div class="Info">
+            <details>
+                <summary>Como separar corretamente</summary>
+                <div>
+
+                </div>
+            </details>
+        </div>
+
+        <div class="Info">
+            <details>
+                <summary>Title</summary>
+            </details>
+        </div>
+    </div>
+
+    <div class="CardGrid">
+        <div class="Card" onclick="Girar()">
+            <div class="front">
+                Papel
+            </div>
+            <div class="back">
+                jornais, revistas, caixas de papelão, embalagens de papel, etc.
+            </div>
+        </div>
+
+        <div class="Card" onclick="Girar()">
+            <div class="front">
+                Plástico
+            </div>
+            <div class="back">
+                garrafas PET, embalagens de alimentos, sacolas plásticas, potes, etc.
+            </div>
+        </div>
+
+        <div class="Card" onclick="Girar()">
+            <div class="front">
+                Vidro
+            </div>
+            <div class="back">
+                garrafas, potes, frascos, etc.
+            </div>
+        </div>
+    </div>
+
+    Vidro: garrafas, potes, frascos, etc.
+    Metal: latas de alumínio, latas de aço, pregos, parafusos, etc.
+    Orgânicos: restos de alimentos, cascas de frutas e legumes, folhas, etc.
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
