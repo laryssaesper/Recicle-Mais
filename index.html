@@ -10,30 +10,29 @@
 
 <body>
     <header>
-        icon
+        <img class="Icon" src="img/icone.png" alt="icon">
+        <p class="Name"> Recicle Mais</p>
     </header>
 
-    <h2>Hoje é dia <input type="date" id="DataHoje"></h2>
+    <div class="Text">
+        <h2>Hoje é dia <p id="DataHoje"></p>
+        </h2>
 
-    <label>
-        <input type="checkbox"><span>Terça</span>
-        <input type="checkbox"><span>Quinta</span>
-        <input type="checkbox"><span>Sábado</span>
-    </label>
-
-    <span>Dia de coleta</span>
+        <span id="Coleta"></span>
+    </div>
 
     <div>
         <div class="Info">
             <details>
                 <summary>Importância da coleta</summary>
                 <div>
-                    A coleta seletiva traz muitos benefícios para o meio ambiente e para a sociedade.
+                    <p>A coleta seletiva traz muitos benefícios para o meio ambiente e para a sociedade.
 
-                    Ao separar os resíduos recicláveis, evitamos a extração excessiva de recursos naturais, reduzimos o
-                    volume de lixo nos aterros e economizamos energia na produção de novos materiais.
+                        Ao separar os resíduos recicláveis, evitamos a extração excessiva de recursos naturais,
+                        reduzimos o
+                        volume de lixo nos aterros e economizamos energia na produção de novos materiais.
 
-                    * Fonte: EuReciclo
+                        * Fonte: EuReciclo</p>
                 </div>
             </details>
         </div>
@@ -42,63 +41,70 @@
             <details>
                 <summary>Como separar corretamente</summary>
                 <div>
-                    Em caso de não ter latas próprias para os diferentes tipos de materiais, o ideal é separar em
-                    resíduos secos e úmidos (orgânicos).
+                    <p>Em caso de não ter latas próprias para os diferentes tipos de materiais, o ideal é separar em
+                        resíduos secos e úmidos (orgânicos).</p>
                 </div>
             </details>
         </div>
     </div>
 
-    <div class="CardGrid">
-        <div class="Card" onclick="Girar()">
-            <div class="front">
-                Papel
-            </div>
-            <div class="back">
-                jornais, revistas, caixas de papelão, embalagens de papel, etc.
+
+    <div class="Grid">
+        <div class="Card">
+            <div class="CardInner">
+                <div class="Front">
+                    <img class="CardImg" src="img/papel.png" alt="papel">
+                </div>
+                <div class="Back">
+                    <p>jornais, revistas, caixas de papelão, embalagens de papel, etc.</p>
+                </div>
             </div>
         </div>
 
-        <div class="Card" onclick="Girar()">
-            <div class="front">
-                Plástico
-            </div>
-            <div class="back">
-                garrafas PET, embalagens de alimentos, sacolas plásticas, potes, etc.
-            </div>
-        </div>
-
-        <div class="Card" onclick="Girar()">
-            <div class="front">
-                Vidro
-            </div>
-            <div class="back">
-                garrafas, potes, frascos, etc.
+        <div class="Card">
+            <div class="CardInner">
+                <div class="Front">
+                    <img class="CardImg" src="img/plastico.png" alt="plastico">
+                </div>
+                <div class="Back">
+                    <p> garrafas PET, embalagens de alimentos, sacolas plásticas, potes, etc.</p>
+                </div>
             </div>
         </div>
 
-        <div class="Card" onclick="Girar()">
-            <div class="front">
-                Metal
-            </div>
-            <div class="back">
-                latas de alumínio, latas de aço, pregos, parafusos, etc.
+        <div class="Card">
+            <div class="CardInner">
+                <div class="Front">
+                    <img class="CardImg" src="img/vidro.png" alt="vidro">
+                </div>
+                <div class="Back">
+                    <p>garrafas, potes, frascos, etc.</p>
+                </div>
             </div>
         </div>
 
-        <div class="Card" onclick="Girar()">
-            <div class="front">
-                Orgânicos
+        <div class="Card">
+            <div class="CardInner">
+                <div class="Front">
+                    <img class="CardImg" src="img/metal.png" alt="metal">
+                </div>
+                <div class="Back">
+                    <p>latas de alumínio, latas de aço, pregos, parafusos, etc.</p>
+                </div>
             </div>
-            <div class="back">
-                restos de alimentos, cascas de frutas e legumes, folhas, etc.
+        </div>
+
+        <div class="Card">
+            <div class="CardInner">
+                <div class="Front">
+                    <img class="CardImg" src="img/organico.png" alt="organico">
+                </div>
+                <div class="Back">
+                    <p>restos de alimentos, cascas de frutas e legumes, folhas, etc.</p>
+                </div>
             </div>
         </div>
     </div>
-
-
-
-
 
     <script src="script.js"></script>
 </body>
