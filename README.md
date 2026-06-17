@@ -9,8 +9,8 @@ Sobre a programação, o site é responsivo, ou seja, é adaptável a diversos d
 - JavaScript;
 - Site Figma para design.
 * * *
-![Figma.png](:/72c308df482347d193fd6fc8b4efe1aa)
-*Protótipo feito no Figma*
-* * *
-![Tela.png](:/2ce249a3c1474a65bb761a835bb0746f)
+![Figma.png](img/Figma.png) 
+*Protótipo feito no Figma* 
+* * * 
+![Tela.png](img/Tela.png) 
 *Tela Final*
